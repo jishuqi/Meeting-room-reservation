@@ -1,0 +1,24 @@
+server:
+  port: 7001
+  
+spring:
+  application:
+    name: jeecg-system
+  cloud:
+    nacos:
+      config:
+        server-addr: jeecg-boot-nacos:8848
+        group: DEFAULT_GROUP
+        namespace: 
+        username: 
+        password: 
+      discovery:
+        server-addr: ${spring.cloud.nacos.config.server-addr}
+        group: DEFAULT_GROUP
+        namespace: 
+        username: 
+        password: 
+  config:
+    import:
+      - optional:nacos:jeecg.yaml
+      - optional:nacos:jeecg-dev.yaml

@@ -1,0 +1,6 @@
+org\jeecg\test\sqlinjection\TestSqlInjectForOnlineReport.class
+org\jeecg\test\sqlinjection\TestInjectWithSqlParser.class
+org\jeecg\test\sqlinjection\TestSqlInjectForDict.class
+org\jeecg\test\sqlparse\TestIpUtil.class
+org\jeecg\test\sqlparse\JSqlParserUtilsTest.class
+org\jeecg\test\sqlinjection\TestSqlInjection.class

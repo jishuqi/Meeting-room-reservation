@@ -1,0 +1,7 @@
+org\jeecg\smallTools\TestSqlHandle.class
+org\jeecg\smallTools\TestStr.class
+org\jeecg\modules\message\test\SendMessageTest.class
+org\jeecg\modules\system\test\SampleTest.class
+org\jeecg\modules\system\test\InsertDemoTest.class
+org\jeecg\modules\system\test\SysUserTest.class
+org\jeecg\modules\system\test\SysTableWhiteCheckTest.class
